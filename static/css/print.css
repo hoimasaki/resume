@@ -1,0 +1,143 @@
+@media print {
+* {
+    font-size: 12px;
+    list-style: none;
+    line-height: 1.5em;
+}
+
+form { line-height: 1.0em;}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+ul { list-style: none;}
+img {
+  border: none;
+  -ms-interpolation-mode: bicubic;
+}
+a { color:#016be5; text-decoration: none;}
+a.green {color:#48a52e;}
+a:hover { color:#ff6a00; text-decoration: none;}
+
+.favorite_btn_and_scout, .msg_scout_box {
+  display: none;
+}
+
+#prf_cfm_box {
+    border: 1px solid #CECECE;
+    clear: both;
+    display: block;
+    height: auto;
+    margin: 20px auto;
+    padding: 30px 10px;
+    width: 838px;
+}
+
+.comfirm_ttl {
+    border-bottom: 1px solid #CECECE;
+    color: #333;
+    font-weight: normal;
+    margin: 10px 0 0;
+    padding: 0;
+    width: 100%;
+}
+.comfirm_ttl__header{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.tb_apl {
+    display: block;
+    height: auto;
+    margin: 20px auto;
+    padding: 0;
+    width: 720px;
+}
+
+.regi_conf_rgt {
+    border-bottom: 1px solid #CECECE;
+    color: #000;
+    height: auto;
+    margin: 0;
+    padding: 5px 0;
+    width: 110px;
+}
+
+#regi_conf_name {
+    font-size: 22px;
+}
+.regi_conf_lft {
+    border-bottom: 1px solid #CECECE;
+    color: #000;
+    margin: 0;
+    padding: 5px 0;
+    width: 590px;
+}
+#pic {
+    background: #FFF;
+    border: 20px solid #FFF;
+    display: block;
+    height: 118px;
+    left: 678px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 85px;
+    width: 88px;
+}
+span.pic_pri {
+    background: #FFF;
+    border: 1px solid #CECECE;
+    display: block;
+    height: 114px;
+    margin: 0;
+    padding: 0;
+    width: 85px;}
+
+.regi_conf_rgt_skill {
+    border-bottom: 1px solid #CECECE;
+    color: #000;
+    height: auto;
+    margin: 0;
+    padding: 5px 0;
+    width: 180px;
+}
+
+.regi_conf_lft_skill {
+    border-bottom: 1px solid #CECECE;
+    color: #000;
+    margin: 0;
+    padding: 5px 0;
+    width: 540px;
+}
+
+.regi_conf_rgt_a {
+    border-bottom: 1px solid #CECECE;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    width: 90px;
+}
+
+.regi_conf_lft_a {
+    border-bottom: 1px solid #CECECE;
+     color: #000;
+    margin: 0;
+    padding: 5px 0;
+    width: 200px;
+}
+.regi_conf_lft_b {
+    border-bottom: 1px solid #CECECE;
+     color: #000;
+    margin: 0;
+    padding: 5px 0 5px 10px;
+    width: 200px;
+}
+
+#print { display: none;}
+#close {display: none;}
+
+}
