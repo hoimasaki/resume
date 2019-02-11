@@ -199,10 +199,10 @@
                                 <br>【在职时间】2018年2月〜至今
                                 <br>【岗位】SRE开发工程师
                                 <br><br>【主要职责】<br>
-                                1. 负责BiliBili立体监控平台的整体架构设计和开发。基于Prometheus的Metric型数据整体监控系统，用Golang整合开发插件试的Exporter系统，包括网关层，产品和后端和前端主程。<br>
+                                1. 负责BiliBili立体监控平台（包括Metric型和日志型)的整体架构设计和开发。基于Prometheus的Metric型数据整体监控系统，用Golang整合开发插件试的Exporter系统，包括网关层，产品和后端和前端主程。<br>
                                 2. 整体运维数据分析系统的设计和开发，实现定时和近实时的报表输出开发，即席查询，实时查询和数据可视化，包括容量数据，APM服务端数据，APM客户端数据，网络数据，负责后端主程和前端主程，UI设计。<br>
                                 3. 2W多个Metric指标的监控系统的迁移以及实现Prometheus的高可用，监控标准制定，分级，系统的日常运维工作和Oncall。 <br>
-                                4. 负责公司ELK集群的日常运维和监控，开发，通过Kafka将数据写到Elasticsearch集群，供研发人员做统一的日志中心管理<br>
+                                4. 负责Bilibili统一日志中心的ELK集群的日常运维和监控，开发，通过Kafka将数据写到Elasticsearch集群，供研发人员做统一的日志查看<br>
                                 5. 负责Bilibili通知中心的重构，支持5000并发的多渠道实时通知分发系统，可以将通知实时准确无误的送到用户接收端，用户可以自由订阅，负责后端主程和前端主程。<br>
                                 6. 基础平台部的CMDB和Service Tree设计，接口调用开发。<br>
                                 7. 和CI/CD平台进行联动，告警回调设计,实现故障自愈系统<br>
@@ -227,7 +227,7 @@
                                 <br><br>【主要职责】<br>
                                 1.管理和运维超过10w核大型服务器集群。日常应用发布和管理。<br>
                                 2.负责京东无线业务运维开发部的Elasticsearch集群维护，为其他Team提供支撑。<br>
-                                3.负责京东无线APM系统的开发，进行数据可视化输出，负责架构设计，后端框架开发，前端框架开发,UI设计<br>
+                                3.负责京东无线APM系统的开发，在客户端进行埋点上报，监测实际用户的应用体检，进行数据可视化输出，关键用户追踪。负责架构设计，后端框架开发，前端框架开发,UI设计<br>
                                 4.分布式外网线路探测开发，实现妙级的端到端全国网络抖动告警，线路检测，发现骨干网络故障能立即切到HttpsDNS ,来进行容灾。负责架构设计，后端框架开发，前端框架开发,UI设计。
                                 <br>
                                 <hr>
@@ -259,44 +259,64 @@
                                 网站web运维，开发运维管理系统，优化配置nginx，zabbix监控
                                 <br>
                                 <h2><br>项目经验</br></h2>
-                                <br> 【项目名】Bilibili监控平台
+                                <br> 【项目名】Bilibili立体监控平台(2018年)
                                 <br> 【职责】架构师，主要开发人员
                                 <br> 【内容】 负责Bilibili监控平台的整体架构设计，基于Prometheus，使用PromQL亲自编写了各种监控算法的规则，并且让Prometheus支持集群化方案和冷热存储分离，实现超过1亿的Series存储和超过2W个Metric指标的采集，通过通用的表达式来让研发可以自主配置不通的阀值。
                                 <br>
                                 <hr>
-                                <br> 【项目名】 量点量化交易系统
+                                <br> 【项目名】 量点量化交易系统  (2017年)
                                 <br> 【职责】架构师，主要开发人员
                                 <br> 【内容】通过网络爬虫采集财经数据，A股，美股，港股的股市数据和财务数据。进行不同时间时间纬度的K线数据计算，可以计算出MACD,KDJ等指标交叉数据和值，判断股市走势。使用Python通过成交量，高低支撑价位来计算出同种形态的个股进行消息推送。开发了IOS原生应用查看个股的K线，量化计算结果。可以进行近高频的实时交易。
                                 <hr>
-                                <br> 【项目名】上交所技术运营监测平台
-                                <br> 【职责】架构师，主要开发人员 
+                                <br> 【项目名】上交所技术运营监测平台 (2017年)
+                                <br> 【职责】架构师，产品设计，UI设计，后端主程，前端主程
                                 <br> 【内容】 负责整个上海证券交易所交易系统的监测闭环，SRE落地前序，从0到1的完全自研，涵盖核心交易系统，周边业务系统和大数据系统。处理海量数据的实时监控体系。使用Python 加内存数据库实现实时分析竞价数据，通过Kafka作数据接收队列。处理延迟在30ms以内。整个监测系统的响应时间控制秒级。设计了整个项目架构并且参与编写网关框架代码。Python 实时计算处理引擎。Metric 告警规则引擎。规划并且设计基于交易所环境的CMDB，和立体化的监控体系。
-                                <br>
+                                <br> 【部分项目快照】 
+                                <br>运维人员的系统实时看板</br>
+                                <br><img  src="static/image/sse/1.png" width="600px" height="340px"><br>
+                                <br>系统容量监测</br>
+                                <br><img  src="static/image/sse/2.png" width="600px" height="340px"><br>
+                                <br>使用Vue重构的Grafana</br>
+                                <br><img  src="static/image/sse/3.png" width="600px" height="340px"><br>
+                                <br>重构的Grafana自定义Metric指标</br>
+                                <br><img  src="static/image/sse/4.png" width="600px" height="340px"><br>
+                                <br>单体服务器预览结合CMDB</br>
+                                <br><img  src="static/image/sse/5.png" width="600px" height="340px"><br>
+                                <br>批处理系统实时数据监控</br>
+                                <br><img  src="static/image/sse/6.png" width="600px" height="340px"><br>
                                 <hr>
-                                <br> 【项目名】上交所金融云平台
+                                <br> 【项目名】上交所金融云平台 (2016年)
                                 <br> 【职责】架构师
                                 <br> 【内容】负责上交所基于容器云平台的运维开发。基于Mesos、Marathon调度框架搭建了容器云原型。后期转为k8s，并且开发了Dockerfile自动打包系统。NGINX 在线配置管理系统。主导和设计了上市公司互联网业务和证监会环网的对称网络互访。搭建了基于openrsty的灰度系统。对整个mesos的docker 环境进行监控和采样系统的开发，实用nodejs 开发了pump数据泵，能在异构隔离系统之间互相抽取数据，实现ETL
                                 <br>
                                 <hr>
-                                <br> 【项目名】京东网络探测平台
+                                <br> 【项目名】京东网络探测平台 (2015年)
                                 <br> 【职责】架构师,主程
                                 <br> 【内容】全网链路质量探测，能够精确的反应当前网络质量，做到故障自动化切换。通过异步的icmp协议,以及tcp协议根据特定得算法，求得全国探测质量最高的探基准点。整个项目基于NodeJS 的高并发和异步特性，能秒级探测全国数量众多的探测点。
                                 <br>
                                 <hr>
-                                <br> 【项目名】京东无线APM平台
+                                <br> 【项目名】京东无线APM平台 (2015年)
                                 <br> 【职责】产品经理，架构师
                                 <br> 【内容】京东无线端到端的性能分析。基于elasticsearch，日数据处理量达到5亿条,对用户上报的性能数据进行DSL查询得出结果,获得真实的用户体验数据。
                                 <br>
                                 <hr>
-                                <br> 【项目名】Ucloud BI运营数据平台
+                                <br> 【项目名】Ucloud BI运营数据平台 (2014年)
                                 <br> 【职责】产品经理，架构师,主程
                                 <br> 【内容】负责Ucloud 数据平台开发，使用Hadoop和Elasticsearch搭建离线数据分析处理平台，计算各类财务数据报表，运营数据分析,为业务人员提供即系查询和和自动报表生成。
                                 <br>
                                 <hr>
-                                <br> 【项目名】Sevnote日志分析系统
+                                <br> 【项目名】Sevnote日志分析系统 (2013年)
                                 <br> 【职责】产品经理，架构师,主程
                                 <br> 【内容】系统笔记 Sevnote 是使用 NodeJS 开发的基于 Elasticsearch 的海量日志分析系统，能通过主机，设备，程序，优先级，关键字来过滤系统日志，更有动态仪表盘能实时的监控日志的产生。支持 Syslog 协议，如果安装Sevnote-agent 可以收集任何文本形式的日志，例如，Web 访问日志，应用程序产生的日志进行集中的管理。如果把监控形容为把脉，那么通过检索日志就是对系统健康的验血(开源产品，详见https://www.oschina.net/p/sevnote)。
-                                <br>
+                                <br> 【部分项目快照】<br/>
+                                <br>日志检索首页
+                                <br><img  src="static/image/sevnote/1.jpg" width="600px" height="340px">
+                                <br> 通过Grok自由切割日志
+                                <br><img  src="static/image/sevnote/3.jpg" width="600px" height="340px">
+                                <br>产品化的日志导入向导
+                                <br><img  src="static/image/sevnote/4.jpg" width="600px" height="340px">
+                                <br>自由选择日志查询时间段
+                                <br><img  src="static/image/sevnote/5.png" width="600px" height="340px">
                                 <br>
                                 <h2><br>教育经历</br></h2>
                                 <br>2007.2-2010.1&nbsp;&nbsp;&nbsp;东华大学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息系统信息管理&nbsp;&nbsp;&nbsp;本科
