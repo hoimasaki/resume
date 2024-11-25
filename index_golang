@@ -155,13 +155,13 @@ Skills: Prometheus, Apache Kafka ,ElasticSearch , Airflow   <br>
                                 <br>【Work Time】Dec. 2016〜Jan. 2018
                                 <br>【Job】Senior Backend Engineer 
                                 <br><br>【Main responsibility】<br>
-                           Led a team to develop and implement a Monitoring System for Trading and Cloud services.<br>
-1. Created a Docker Container Platform using Apache Mesos for efficient application deployment.<br>
-2. Managed and enhanced the Opentsdb Time Series Database for reliable data storage in the monitoring system.<br>
-3. Developed an API gateway with elastic log processing for the monitoring system.<br>
-4. Consulted on monitoring for a new core trading system, focusing on performance optimization.<br>
-5. Wrote a white paper on a new operation monitoring system for the Shanghai Stock Exchange.<br>
-Skills: <br><b>Apache Mesos, Python , HBase ,Apache Kafka , Vue,NodeJs,</b> <br>
+                          Main Responsibility: Golang Developer for Futures Trading Systems<br>
+1. Designed and developed a high-performance futures trading system using Golang, with focus on low latency and high concurrency.<br>
+2. Implemented gRPC and Protocol Buffers for efficient inter-service communication, enabling scalable architecture.<br>
+3. Utilized Goroutines to handle real-time order matching, risk control, and market data processing under high-frequency trading scenarios.<br>
+4. Optimized system performance by reducing latency and enhancing throughput through profiling and tuning.<br>
+5. Developed APIs and tools for strategy backtesting, monitoring, and seamless integration with external trading platforms.<br>
+Skills: <br><b>Skills: Golang, gRPC, Protocol Buffers, Goroutines, Docker, Kubernetes, PostgreSQL, Redis.</b> <br>
                                 <br>
                                  <hr>
 <!--                                 <br>【Company】<img  src="static/image/ucloud.png" width="70px" height="50px">UCloud.cn
