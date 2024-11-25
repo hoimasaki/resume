@@ -1,1 +1,246 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hui Tu</title>
+    <!--
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/mdl/material-design-lite-b6145b529427ccb5bd3e26caffb15544aa4bd8bb0dd09cd7a152daf956a21d7f.css"/>
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/modules/modules-3dd6c2c3a86e7c19e8780e616e94e4c7fe7ba9d5a6badaf2cf8154079d07f5c6.css"/>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/material.min-206b3d9968c8790a1d5446c37105bdeb48a64ee9110b2c649ee883ff10c40c01.js"></script>
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/new/green/common-711ff5c7544bc0129c36f4dee89fbf66406189525f615cd0775d2c0e44e892b6.css" />
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/new/green/default-e08b53f29ee2008603f75a13e31522f314d026aff432e15dd80d2efa60d910a6.css"/>
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/footer-1e5b3805109c21f8d526f94008abd646d42ea3ae9aca1cc8a6ca7db3209bc6e3.css"/>
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/new/green/layout-75ea76ca3fbc48e71107be9804916fbcbd7f21c868809433abbd82a3f539c1a5.css"/>
+    -->
+
+    <link ref="stylesheet" media="screen" href="./static/css/material-design-lite.css">
+    <link ref="stylesheet" media="screen" href="./static/css/modules.css">
+    <link ref="stylesheet" media="screen" href="./static/css/material.css">
+    <link ref="stylesheet" media="screen" href="./static/css/common.css">
+    <link ref="stylesheet" media="screen" href="./static/css/default.css">
+    <link rel="stylesheet" media="screen" href="./static/css/footer.css">
+    <link rel="stylesheet" media="screen" href="./static/css/layout.css">
+    <!--
+    <link rel="stylesheet" mddia="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/user_profile_simple-3f443eb720c14f89496d3ee67aab30ce92c100b2eab3b929ca7018f4a63ce67e.css"/>
+    -->
+    <link rel="stylesheet" media="screen" href="./static/css/user_profile.css"/>
+    <link rel="stylesheet" media="screen" href="./static/css/registrations.css"/>
+    <link rel="stylesheet" media="screen" href="./static/css/efo.css"/>
+    <link rel="stylesheet" media="screen" href="./static/css/validationEngine.jquery.css"/>
+    <link rel="stylesheet" media="print" href="./static/css/print.css" type="text/css" />
+    <!--
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/mdl/users/registrations-23aca872e0586b22853d95c26b68ddc7e72502fbeb8c746ed891c0d4c8ee2399.css"/>
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/efo-802e93c0bb8a105981f0b27d5754bb9632644f371002064af51a3adcaa889ee9.css"/>
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/validationEngine.jquery-ac9a53f6bf4ecb1364c947f41186f4cb570709c936db1282b883f3d86ce28480.css"/>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/application-a5a37e16200a55b198d32b63a9f5764c264d4d5571c04562c206d6ece55d6606.js"></script>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/profile_preview-1522f24203c0328e2262cac8e15f02863bc268cc085d2e7d6a2783325f2c3f52.js"></script>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/header-c1f67c973489b803d2bbbee633cb11cbe4c813e0f5da427b02d7cee70f6a96fa.js"></script>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/registrations/exp_job_types-3df4239cdd0fa0a245de86e56c50b1a2ddb560fda146f9785ad48e9f9f7c00ad.js"></script>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/registrations/hope_areas-2673f7bdca073b594f9e2bf577a89ad2ca81d954c244ec10887c071180fa88b2.js"></script>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/registrations/salary_box-52b8f3a4801bac76892eaaa862e4f4fe26291c5567fa5f955363b5d82f9edb63.js"></script>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/search_history_box-7f2e321a330e0ea618e125754b742e1164f540adc6244844248d72bc24a03046.js"></script>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/user_notifications-d952b63f13394c5fd87f1b239ce4d449dbf297c4632722877a8e06fc91253899.js"></script>
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta name="csrf-token" content="i0jG2AY06+/BaxLPCRQ8RrxwHXOE/bkWqvgIBBUbVIoJPVldOnt7oTMVhhq5kV9+JnPv40Unf10IkZbRIg/e9g=="/>
+    <link href="/assets/favicon.ico" rel="shortcut icon" />
+    -->
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="content">
+            <div id="content_cont">
+                <div class="user-profile-wrap">
+                    <div class="resume-title">Hui Tu </div>
+                    <div class="resume-scroll-area">
+                        <div class="resume-photo">
+                            <img src="./static/image/tuhui.jpg" width="120px" height="150px" />
+                        </div>
+                        <div class="resume-detail">
+                            <div class="resume-left">
+                                <table class="noborder zebra">
+                                    <tr>
+                                        <th>Name</th>
+                                        <td>Hui Tu</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Gender</th>
+                                        <td>Male</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Location</th>
+                                        <td>Japan Tokyo</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Phone</th>
+                                        <td>+81-070-4780-1102</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Email</th>
+                                        <td>htu2@hawk.iit.edu</td>
+                                    </tr>
+                                     <tr>
+                                        <th>Degree</th>
+                                        <td>Master of Software Enginering</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Graduated</th>
+                                        <td>Illinois Institute of Technology</td>
+                                    </tr>
+                                </table>
+                            </div>
+<!--                             <div class="resume-right">
+                                <table class="noborder zebra">
+                                    <tr>
+                                        <th>Language </th>
+                                        <td>NativeLanguage Chinese 
+                                            <br>Secondary-Language English
+                                            <br>Third-Language Japanese
+                                            <br>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div> -->
+                        </div>           
+                        <div class="resume-detail" id="anchor-resume-detail">
+                            <h2><br><b>Introduce</b><br></h2>
+                                <br><br>
+With over a decade of experience in full-stack development, I specialize in backend development and Site Reliability Engineering (SRE), while also proficient in frontend development. My expertise encompasses site reliability, DevOps, large-scale software development, platform architecture design, and project management, consistently embracing the craftsmanship spirit.                              <h2><br><b>Work Experience</b></br></h2>
+                                <br>【Company】<img  src="static/image/1664870445225.jpg" width="60px" height="45px">Rakuten Group Inc. (Japan Tokyo)
+                                <br>【Work Time】Oct 2022〜 Now
+                                <br>【Job】Senior Site Reliability Engineer / Backend Engineer
+                                <br>
+                                【Main responsibility】<br>
+                                1. Led the design and implementation of redundancy architecture and automation pipelines for the Rakuten Ichiba application, ensuring high availability, fault tolerance, and efficient deployment. <br>
+                                2. Directed the migration and management of Rakuten Ichiba and legacy applications to Kubernetes, optimizing scalability, performance, and modernizing infrastructure..<br>
+                                3. Developed and implemented cloud-native monitoring tools using Elastic and Prometheus, enhancing system reliability and observability, and managed the development and maintenance of SRE tools.<br>
+                                4. Led the Golang backend development team for the AI review project, driving innovation and technical excellence, and conducted stress testing and troubleshooting to ensure optimal system performance and stability.<br>
+                                Skills: <b>Kubernetes,Prometheus,ElK,Golang,GRPC,Python,NodeJs,Next.js,React,Airflow,Jenkins,AWS,GCP,OpenAI</b>
+                                <br>
+                                <hr>
+                                <br>【Company】<img  src="static/image/huifu.png" width="60px" height="45px">Huifu Payment Ltd （Listed in Hong Kong, Third-party payment companies）
+                                <br>【Work Time】March 2019〜 Sep. 2022
+                                <br>【Job】Devops Specialist / Senior Fullstack Engineer 
+                                <br>
+                                【Main responsibility】<br>
+1.Led the development of an advanced automation pipeline for the company, utilized by over 300 developers. This pipeline integrated CI/CD and automated testing, achieving an automation level exceeding 90%, significantly enhancing development efficiency and reducing deployment times <br>
+2.Directed the development of an internal hybrid Kubernetes platform, seamlessly integrating on-premises and cloud environments to optimize resource utilization and scalability. <br>
+3.Oversaw the migration of legacy applications to Kubernetes, modernizing the infrastructure and ensuring seamless integration with contemporary cloud-native technologies.<br>
+4.Spearheaded the development of a sophisticated log analysis system to replace ELK, providing a lightweight yet powerful solution for log management and analysis.<br>
+5.Implemented a comprehensive monitoring system based on Prometheus, enhancing observability and proactive issue resolution across the infrastructure.<br>
+8.Contributed to the development of a massive tracing monitoring system, enabling detailed performance analysis and troubleshooting across distributed systems.<br>
+Skills: <b>Kubernetes, Vue.js,NodeJs,Golang,Python,Jenkins ,Apache Kafka,Airflow,Loki,CI/CD,AliCloud</b><br>
+                                
+                                <hr>
+                                <br>【Company】 <img  src="static/image/bilibili.png" width="60px" height="45px">Bilibili.com
+                                <br>【Work Time】Jan. 2018〜 Feb. 2019
+                                <br>【Job】Site Reliability Engineer
+                                <br><br>【Main responsibility】<br>
+                            1.Led a team as the group leader responsible for developing the monitoring system <br>
+2.Design and Implement Prometheus to replace the outdated Zabbix monitoring system, enabling the monitoring system to meet cloud-native requirements and support technology updates.<br>
+3.Develop and impltement a hybird cloud platform (Alicloud and Tecent Cloud)
+4.Develop and impltement a SRE alert system for OnCall duty, including both PC and mobile app.<br>
+5.Develop and impltement a modular notification alert system.<br>
+6.Develop an internet network quality detection system.<br>
+Monitoring Systems: Prometheus, Zabbix <br>
+Cloud Platforms: Alibaba Cloud, Tencent Cloud, AWS, Google Cloud Platform, UCloud<br>
+Programming Languages: Vue.js, React.js, Node.js, Python, Golang <br>
+Mobile Development: Xcode Swift UI, React Native <br>
+Skills: Prometheus, Apache Kafka ,ElasticSearch , Airflow   <br>
+                                <br>
+                                <hr>
+                                <br>【Company】<img  src="static/image/ste.png" width="70px" height="50px">Shanghai Stock Exchange Technical Company
+                                <br>【Work Time】Dec. 2016〜Jan. 2018
+                                <br>【Job】Senior Backend Engineer 
+                                <br><br>【Main responsibility】<br>
+                           Led a team to develop and implement a Monitoring System for Trading and Cloud services.<br>
+1. Created a Docker Container Platform using Apache Mesos for efficient application deployment.<br>
+2. Managed and enhanced the Opentsdb Time Series Database for reliable data storage in the monitoring system.<br>
+3. Developed an API gateway with elastic log processing for the monitoring system.<br>
+4. Consulted on monitoring for a new core trading system, focusing on performance optimization.<br>
+5. Wrote a white paper on a new operation monitoring system for the Shanghai Stock Exchange.<br>
+Skills: <br><b>Apache Mesos, Python , HBase ,Apache Kafka , Vue,NodeJs,</b> <br>
+                                <br>
+                                 <hr>
+<!--                                 <br>【Company】<img  src="static/image/ucloud.png" width="70px" height="50px">UCloud.cn
+                                <br>【Work Time】Oct. 2016〜Dec. 2016
+                                <br>【Job】Senior Software Engineer
+                                <br><br>【Main responsibility】<br>
+                                1 BI System Development, Data visualizing
+                                <br>
+                                <hr> -->
+                                <br>【Company】<img  src="static/image/jd.png" width="60px" height="50px">JD.com 
+                                <br>【Work Time】April 2015 〜 Oct.2016
+                                <br>【Job】Senior Backend Engineer
+                                <br><br>【Main responsibility】<br>
+1. Managed a server cluster of over 100,000 instances for JD Mall Itempage, including application publishing and management.<br>
+2. Designed and maintained the Elasticsearch Cluster for JD Mall ItemPage Log Service.<br>
+3. Developed JD's APM system, focusing on data visualization and analysis, responsible for architecture, back-end, and front-end development.<br>
+4. Implemented a Distributed Internet Network Probing System for national network probing and backbone failure detection, including disaster recovery using HttpsDNS.<br>
+5. Developed and implemented a low-cost Http Status Monitoring System.<br>
+Skills: <b>Python ,Docker , Ansible ,ElasticSearch , Vue,JQuery,Php</b> <br>
+                                <hr>
+                                <br>【Company】<img  src="static/image/ucloud_logo.png" width="60px" height="40px">UCloud.cn (Cloud Computer Platform)
+                                <br>【Work Time】Nov. 2013〜 April. 2015
+                                <br>【Job】 Senior Software Engineer
+                                <br><br>【Main responsibility】<br>
+1. Built a CRM system with integrated billing and BI for data support in sales and operations.<br>
+2. Develop Ucloud's BI system for dynamic data analysis and reporting.<br>
+3. Worked with auditors to create performance-based graphical reports for decision-making.<br>
+5. Architect and develop a network link detection system.<br>
+6. Create an ELK-based cloud log product for efficient data search and visualization.<br>
+7. Develop a CMDB system with a focus on hardware and database architecture.<br>
+8. Introduced a unified Node.js framework to improve back-end system visuals.<br>
+9. Assisted in the operation and maintenance of external systems.<br>
+10. Performed server performance testing and automated installations.<br>
+Skills:<b> Cloud Computing , PHP,Nodejs , System Monitoring , Business Intelligence (BI) , ElasticSearch ,AWS</b><br>
+                                <br>
+                                <hr>
+                                <br>【Company】Shanghai Easipass (Custom Port data exchange)
+                                <br>【Work Time】May. 2010 〜 Nov. 2013
+                                <br>【Job】System Engineer
+                                <br><br>【Main responsibility】<br>
+                                1. AIX HP-UX system operation and maintenance<br>
+2. Middleware operation and maintenance include Weblogic, Nginx Webserver,Apahce Tomcat, etc.<br>
+3. Regular SRE task with application deployment<br>
+4. In charge of application monitoring.<br>
+5. Develop automatic publishing system<br>
+6.Responsible for the development of an international network VPN proxy system.<br>
+Skills: <b></b>Java , Virtual Private Network (VPN) , IBM AIX ,WebLogic , PHP , Linux</b><br>
+                                <hr>
+                            
+                        
+<!--                                <br>【Company】Kesida information
+                                <br>【Work Time】Nov. 2007 〜 Sep. 2009
+                                <br>【Job】System Engineer
+                                <br><br>【Main responsibility】<br>
+                                1. Server maintenance<br>
+                                2. PHP system development <br>
+                                <hr>
+                        
+                               <br>【Company】Shanghai Huisheng mechanism & electron
+                                <br>【Work Time】Jun. 2006 〜 Oct. 2007
+                                <br>【Job】System Engineer
+                                <br><br>【Main responsibility】<br>
+                                1.  Server maintenance & test engineering <br>
+                                <hr> -->
+                        
+                                <h2><br>Education Experience</br></h2>
+                                <br>2022.8-2023.12&nbsp;&nbsp;&nbsp;Illinois Institute of Technology&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Software Enginering&nbsp;&nbsp;&nbsp;Master Degree 
+                                <br>2007.1-2010.2&nbsp;&nbsp;&nbsp;DongHua University&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Information System & Information Management&nbsp;&nbsp;&nbsp;Undergraduate
+<!--                                 <br>2000.9-2003.6&nbsp;&nbsp;&nbsp;Shanghai Technical Institute of Electronics and Information(STIEl)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Auto Robot ;&nbsp;Colledge
+                                <br> -->
+                
+                                <hr>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
