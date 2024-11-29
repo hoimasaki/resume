@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>屠輝トキ</title>
+    <!--
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/mdl/material-design-lite-b6145b529427ccb5bd3e26caffb15544aa4bd8bb0dd09cd7a152daf956a21d7f.css"/>
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/modules/modules-3dd6c2c3a86e7c19e8780e616e94e4c7fe7ba9d5a6badaf2cf8154079d07f5c6.css"/>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/material.min-206b3d9968c8790a1d5446c37105bdeb48a64ee9110b2c649ee883ff10c40c01.js"></script>
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/new/green/common-711ff5c7544bc0129c36f4dee89fbf66406189525f615cd0775d2c0e44e892b6.css" />
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/new/green/default-e08b53f29ee2008603f75a13e31522f314d026aff432e15dd80d2efa60d910a6.css"/>
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/footer-1e5b3805109c21f8d526f94008abd646d42ea3ae9aca1cc8a6ca7db3209bc6e3.css"/>
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/new/green/layout-75ea76ca3fbc48e71107be9804916fbcbd7f21c868809433abbd82a3f539c1a5.css"/>
+    -->
+
+    <link ref="stylesheet" media="screen" href="./static/css/material-design-lite.css">
+    <link ref="stylesheet" media="screen" href="./static/css/modules.css">
+    <link ref="stylesheet" media="screen" href="./static/css/material.css">
+    <link ref="stylesheet" media="screen" href="./static/css/common.css">
+    <link ref="stylesheet" media="screen" href="./static/css/default.css">
+    <link rel="stylesheet" media="screen" href="./static/css/footer.css">
+    <link rel="stylesheet" media="screen" href="./static/css/layout.css">
+    <!--
+    <link rel="stylesheet" mddia="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/user_profile_simple-3f443eb720c14f89496d3ee67aab30ce92c100b2eab3b929ca7018f4a63ce67e.css"/>
+    -->
+    <link rel="stylesheet" media="screen" href="./static/css/user_profile.css"/>
+    <link rel="stylesheet" media="screen" href="./static/css/registrations.css"/>
+    <link rel="stylesheet" media="screen" href="./static/css/efo.css"/>
+    <link rel="stylesheet" media="screen" href="./static/css/validationEngine.jquery.css"/>
+    <link rel="stylesheet" media="print" href="./static/css/print.css" type="text/css" />
+    <!--
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/mdl/users/registrations-23aca872e0586b22853d95c26b68ddc7e72502fbeb8c746ed891c0d4c8ee2399.css"/>
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/efo-802e93c0bb8a105981f0b27d5754bb9632644f371002064af51a3adcaa889ee9.css"/>
+    <link rel="stylesheet" media="screen" href="https://den8lgfpmzfo0.cloudfront.net/assets/validationEngine.jquery-ac9a53f6bf4ecb1364c947f41186f4cb570709c936db1282b883f3d86ce28480.css"/>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/application-a5a37e16200a55b198d32b63a9f5764c264d4d5571c04562c206d6ece55d6606.js"></script>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/profile_preview-1522f24203c0328e2262cac8e15f02863bc268cc085d2e7d6a2783325f2c3f52.js"></script>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/header-c1f67c973489b803d2bbbee633cb11cbe4c813e0f5da427b02d7cee70f6a96fa.js"></script>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/registrations/exp_job_types-3df4239cdd0fa0a245de86e56c50b1a2ddb560fda146f9785ad48e9f9f7c00ad.js"></script>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/registrations/hope_areas-2673f7bdca073b594f9e2bf577a89ad2ca81d954c244ec10887c071180fa88b2.js"></script>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/registrations/salary_box-52b8f3a4801bac76892eaaa862e4f4fe26291c5567fa5f955363b5d82f9edb63.js"></script>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/search_history_box-7f2e321a330e0ea618e125754b742e1164f540adc6244844248d72bc24a03046.js"></script>
+    <script src="https://den8lgfpmzfo0.cloudfront.net/assets/user_notifications-d952b63f13394c5fd87f1b239ce4d449dbf297c4632722877a8e06fc91253899.js"></script>
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta name="csrf-token" content="i0jG2AY06+/BaxLPCRQ8RrxwHXOE/bkWqvgIBBUbVIoJPVldOnt7oTMVhhq5kV9+JnPv40Unf10IkZbRIg/e9g=="/>
+    <link href="/assets/favicon.ico" rel="shortcut icon" />
+    -->
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="content">
+            <div id="content_cont">
+                <div class="user-profile-wrap">
+                    <div class="resume-title">屠 輝</div>
+                    <div class="resume-scroll-area">
+                        <div class="resume-photo">
+                            <img src="./static/image/tuhui.jpg" width="120px" height="150px" />
+                        </div>
+                        <div class="resume-detail">
+                            <div class="resume-left">
+                                <table class="noborder zebra">
+                                    <tr>
+                                        <th>氏名</th>
+                                        <td>屠　輝</td>
+                                    </tr>
+                                    <tr>
+                                        <th>ふりがな</th>
+                                        <td>ト キ</td>
+                                    </tr>
+                                    <tr>
+                                        <th>性別</th>
+                                        <td>男性</td>
+                                    </tr>
+                                    <tr>
+                                        <th>現住所</th>
+                                        <td>日本.東京</td>
+                                    </tr>
+                                    <tr>
+                                        <th>電話番号</th>
+                                        <td>+81-07047801102</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Email</th>
+                                        <td>htu2@hawk.iit.edu</td>
+                                    </tr>
+                                    <tr>
+                                        <th>最終学歴</th>
+                                        <td>イリノイ工科大学 修士</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="resume-right">
+                                <table class="noborder zebra">
+                                    <tr>
+                                        <th>言葉</th>
+                                            <br>第一言葉 英语(ビジネス)
+                                            <br>第ニ言葉 日本語(JLPT N2)
+                                            <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>目前工作单位</th>
+                                        <td data-highlight="salary-and-exp-company">
+                                            <br>Huifu Payment</td>
+                                    </tr>
+                                    <tr><th>経験企業</th><td data-highlight="salary-and-exp-company">
+                                        2010年03月&nbsp;～&nbsp;2013年11月<br>Easipass.net（正社員）<br>
+                                        2013年11月&nbsp;～&nbsp;2015年04月<br> Ucloud.cn（正社員）<br>
+                                        2015年04月&nbsp;～&nbsp;2016年10月<br>Tencent / JD.com（正社員）(企業買収,JDはTencentのeコマース事業を買収しました)（正社員）<br>
+                                        2017年10月&nbsp;～&nbsp;2018年02月<br>上海証券取引所テクノロジー株式会社正社員）<br>
+                                        2018年2月&nbsp;～&nbsp;2019年3月<br>ビリビリ動画(Bilibili.com)（正社員）<br>
+                                        2019年03月&nbsp;～&nbsp;<br>Huifu Payment（正社員）</td></tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="resume-detail">
+                            <h2><br> 技術系（システム・ネットワーク）</br></h2>
+                            <p class="skill">
+                                <span class="high">スキル</span>
+                                    <span class="low">
+                                    <span class="above-5y">システムの運用と保守 5年以上</span>
+                                    <span class="between-1y-3y">DEVOPS 3年～5年</span>
+                                    <span class="between-3y-5y">バックエンド開発 3年～5年</span>
+                                    <span class="between-3y-5y">フロントエンド開発 3年～5年</span>
+                                    <span class="between-3y-5y">データ分析 3年～5年</span>
+                                    <span class="between-1y-3y">BIビジネスインテリジェンス 1年～3年</span>
+                                    <span class="between-1y-3y">定量的トレーディング 1年～3年</span>
+                                </span>
+                                <span class="low">
+                                    <span class="between-1y-3y">プロジェクト管理 1年～3年</span>
+                                </span>
+                                <span class="middle">オペレーティングシステム</span>
+                                <span class="low">
+                                    <span class="above-5y">MacOS 5年以上</span>
+                                    <span class="above-5y">Linux 5年以上</span>
+                                    <span class="between-1y-3y">HP-UX 1年～3年</span>
+                                    <span class="between-1y-3y">AIX 1年～3年</span>
+                                    <span class="between-1y-3y">BSD 1年～3年</span>
+                                    <span class="below-1y">Solaris 1年未満</span>
+                                </span>
+                                <span class="middle">プログラミング言語</span>
+                                <span class="low">
+                                    <span class="above-5y">JavaScript 5年以上</span>
+                                    <span class="between-1y-3y">EcmaScript6 1年~3年</span>
+                                    <span class="between-3y-5y">Python 5年以上</span>
+                                    <span class="between-1y-3y">Golang 1年以上</span>
+                                    <span class="above-5y">Node.js 3年～5年</span>
+                                    <span class="between-1y-3y">JAVA 1年~3年</span>
+                                    <span class="above-5y">Bash 5年以上</span>
+                                    <span class="between-3y-5y">Perl 1年～3年</span>
+                                    <span class="between-3y-5y">PHP 3年～5年</span>
+                                    <span class="between-1y-3y">MATLAB 1年～3年</span>
+                                    <span class="between-1y-3y">Lua 1年～3年</span>
+                                    <span class="between-3y-5y">CSS 3年～5年</span>
+                                    <span class="between-3y-5y">HTML 3年～5年</span>
+                                </span>
+                                <span class="middle">データベース</span>
+                                <span class="low">
+                                    <span class="above-5y">MySQL 5年以上</span>
+                                    <span class="below-1y">PostgreSQL 1年未満</span>
+                                    <span class="below-1y">MongoDB 1年未満</span>
+                                </span>
+                                <span class="middle">その他</span>
+                                <span class="low">
+                                    <span class="between-3y-5y">Redis 3年～5年</span>
+                                    <span class="between-1y-3y">Docker 1年～3年</span>
+                                    <span class="between-1y-3y">Hodoop 1年～3年</span>
+                                    <span class="between-3y-5y">ELK 3年～5年</span>
+                                    <span class="between-1y-3y">Prometheus 1年～3年</span>
+                                </span>
+                                <span class="middle">バックエンド開発フレームワーク</span>
+                                <span class="low">
+                                    <span class="between-3y-5y">Express 3年～5年</span>
+                                    <span class="between-1y-3y">Socket.io 1年～3年</span>
+                                    <span class="between-1y-3y">Gin 1年～3年</span>
+                                    <span class="between-1y-3y">Flask 1年～3年</span>
+                                    <span class="between-1y-3y">Airflow 1年～3年</span>
+                                    <span class="between-1y-3y">Gin 1年～3年</span>
+                                    <span class="between-1y-3y">Python Scrapy 1年～3年</span>
+                                    <span class="between-1y-3y">Ansible 1年～3年</span>
+                                </span>
+                                <span class="middle">フロントエンド開発フレームワーク</span>
+                                <span class="low">
+                                    <span class="between-3y-5y">jQuery 3年～5年</span>
+                                    <span class="between-1y-3y">Electron 1年～3年</span>
+                                    <span class="between-1y-3y">Backbone.js 1年～3年</span>
+                                    <span class="between-1y-3y">React 1年～3年</span>
+                                    <span class="between-1y-3y">Vue 1年～3年</span>
+                                    <span class="between-1y-3y">Echarts 1年～3年</span>
+                                    <span class="between-1y-3y">HighCharts 1年～3年</span>
+                                    <span class="below-1y">Thress.js 1年未満</span>
+                                    <span class="below-1y">D3.js 1年未満</span>
+                                    <span class="between-1y-3y">React Native 1年～3年</span>
+                                </span>
+                                <span class="middle">モバイル</span>
+                                <span class="low">
+                                    <span class="below-1y">iOS開発 1年未満</span>
+                                    <span class="below-1y">Android開発 1年未満</span>
+                                </span>
+                                <span class="middle">IDEの使用</span>
+                                <span class="low">
+                                    <span class="between-3y-5y">VIM 10年</span>
+                                    <span class="between-1y-3y">VsCode 3年~5年</span>
+                                    <span class="between-1y-3y">Sublime 1年~3年</span>
+                                    <span class="between-1y-3y">IntelliJ Idea 1年~3年</span>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="resume-detail" id="anchor-resume-detail">
+                            <h2><br>自己紹介<br></h2>
+                                <br><br>
+                                <b>細部へのこだわり、完璧さの追求</b>Bilibiliで働いている間、東京で6か月間短期間働いていましたが、現在、東京周辺でDevopsの雇用機会を探しています。フロントエンドとバックエンドに精通したフルスタック開発。大規模なインターネット企業で働いている
+                                基礎となるシステムに精通し、強力な開発およびクラウドコンピューティング製品の設計機能を備えた長年のシステムエンジニアの実務経験。
+                                CI / CDシステム、Devopsシステム、ITSMシステム、CRMシステム、CMDBシステム、ビッグデータ分析システム、モニターシステムの開発に豊富な経験がある<br> 
+                                <hr>
+                                <h2><br>実務経験</br></h2>
+                                <br>【会社名】Huifu Payment
+                                <br>【在职时间】2019年3月〜至今
+                                <br>【仕事】シニアSRE開発エンジニア
+                                <br><br>【主な仕事】<br>
+                                1.会社の開発のデジタル変換を担当し、従来の作業モードをDevopsに変換し、プロジェクトの確立、開発、テスト、公式リリースから、会社の製品のアジャイルな反復効率を大幅に改善します。<br>
+                                2.6人の開発チームのリーダー<br/>
+                                3.1日あたり100人のオンラインユーザーを含む軽量CI / CDシステムを開発しました（社内開発およびテスト）<br/>
+                                4.会社のCMDBモデルを再設計し、サービスツリーモデルを構築し、1000台のサーバーの管理を簡単かつ整然としたものにしました。<br/>
+                                5.変更管理システムを開発し、元の電子メール配信の従来のモデルを置き換え、会社のITSMエクスペリエンスを強化<br/>
+                                6.すべての製品リリース構成を自動化できるように、集中構成管理システムを開発しました<br/>
+                                <br><br>【主な仕事の写真】<br>
+                                <br>実行インターフェース</br>
+                                <br><img src="static/image/huifu/13.png"  width="650px" height="340px"><br>
+                                <br>ログインインターフェース</br>
+                                <br><img src="static/image/huifu/3.png"  width="650px" height="340px"><br>
+                                <br>すべてのサービス</br>
+                                <br><img src="static/image/huifu/1.png"  width="650px" height="340px"><br>
+                                <br>ダッシュボード</br>
+                                <br><img src="static/image/huifu/2.png"  width="650px" height="340px"><br>
+                                <br>サービスツリーCMDB</br>
+                                <br><img src="static/image/huifu/4.png"  width="650px" height="340px"><br>
+                                <br>プロジェクトビュー</br>
+                                <br><img src="static/image/huifu/5.png"  width="650px" height="340px"><br>
+                                <br>ITSMプロセス</br>
+                                <br><img src="static/image/huifu/6.png"  width="650px" height="340px"><br>
+                                <br>CI / CIパイプラインリスト</br>
+                                <br><img src="static/image/huifu/7.png"  width="650px" height="340px"><br>
+                                <br>リアルタイム端末表示</br>
+                                <br><img src="static/image/huifu/8.png"  width="650px" height="340px"><br>
+                                <br>CI / CDクラスを作成</br>
+                                <br><img src="static/image/huifu/9.png"  width="650px" height="340px"><br>
+                                <br>CI / CDプロジェクトビュー</br>
+                                <br><img src="static/image/huifu/10.png"  width="650px" height="340px"><br>
+                                <br>ITSM変更の自動化</br>
+                                <br><img src="static/image/huifu/11.png"  width="650px" height="340px"><br>
+                                <br>ITSMカレンダーの変更</br>
+                                <br><img src="static/image/huifu/12.png"  width="650px" height="340px"><br>
+                                <br>【会社名】BILIBILI.COM
+                                <br>【在职时间】2018年2月〜2019年3月
+                                <br>【仕事】SRE開発エンジニア
+                                <br><br>【主な仕事】<br>
+                                1. BiliBili 3次元監視プラットフォームの全体的なアーキテクチャ設計と開発を担当します（メトリックタイプとログタイプを含む）。 Prometheusのメトリックデータ全体監視システムに基づいて、Golangは、ゲートウェイレイヤー、製品、バックエンドおよびフロントエンドのメインプロセスを含むプラグイントライアル用のExporterシステムを統合および開発します。<br>
+                                2. 運用データおよび保守データ分析システム全体の設計と開発。容量データ、APMサーバーデータ、APMクライアントデータ、ネットワークデータ、バックエンドを含む、定期的およびほぼリアルタイムのレポート出力、アドホッククエリ、リアルタイムクエリおよびデータ視覚化の開発を実現します。 メインプロセスとフロントエンドメインプロセス、UIデザイン。<br>
+                                3. 複数のメトリックインジケータの監視システムの移行と、Prometheusの高可用性の実現、システムとOncallの標準的な定式化、分類、毎日の運用と保守の監視 <br>
+                                4. Bilibili統合ログセンターのELKクラスターの日常の運用、保守、開発を担当し、Kafkaを介してElasticsearchクラスターにデータを書き込みます。開発者は統合ログ表示を行うことができます<br>
+                                5. Bilibili通知センターの再構築を担当し、5,000の同時マルチチャネルリアルタイム通知配信システムをサポートします。これにより、エラーなしでリアルタイムでユーザーの受信側に通知を送信でき、ユーザーはバックエンドメインプロセスとフロントエンドメインプロセスを担当して自由にサブスクライブできます。<br>
+                                6. 実際のユーザーとして、CMDBの構造設計と基本的なプラットフォーム部門のサービスツリーのレビューに参加します。<br>
+                                7. 独自のプラットフォームのCI / CD実装は、バッチプロセス管理システム、アラームコールバック設計、および自動化された運用と保守の障害自己修復システム開発のために開発されました。<br>
+                                8. K8Sインターフェイスは、開発、サービスツリー、およびCMDBリンケージを呼び出します<br>
+                                9. ケースをオンラインで実行する根本的な原因のトラブルシューティング：これに基づいて、対応する監視計画を調整および策定します。<br>
+                                <br>
+                                <hr>
+                                <br>【会社名】上海証券取引所テクノロジー株式会社
+                                <br>【在职时间】2016年10月〜2018年2月
+                                <br>【仕事】SRE開発エンジニア
+                                <br><br>【主な仕事】<br>
+                                1.上海証券取引所の運用監視プラットフォームを0〜1で開発します。データの同時視覚化出力の開発と、運用と保守およびトランザクション運用データのアラーム監視。 プロジェクトマネージャー、テクニカルマネージャー、アーキテクト、リード、UIデザインの役割を務めます。<br>
+                                2.プロジェクトのテクニカルホワイトペーパー、技術ドキュメント、および製品ドキュメントを作成します。<br>
+                                3.ファイナンシャルクラウドDockerプラットフォームの実装に関するコンサルテーションと実行可能性調査レポートを担当し、署名レポートと技術文書を作成します。<br>
+                                4.他のシステムにサービスを提供するために、軽量のCI / CDシステム、DNS管理システム、および自動運用および保守システムを開発します。<br>
+                                5.QuantopianのZiplineフレームワークに基づく取引所での量的取引のパイロット開発は、財務データを収集、計算、表示し、ETLプロセス全体を完了します。 Matlabを使用してさまざまな取引指標を計算し、柔軟な株式選択戦略呼び出し、リアルタイム取引戦略呼び出し（A株、香港株、米国株をサポート）を実現し、Dockerの大規模なクラスタリング操作を実行できます。 アーキテクト、プロダクトマネージャー、バックエンドコンピューティングメインコース、モバイル端末ネイティブアプリケーション開発（Android、IOS）
+                                <br>
+                                <hr>
+                                <br>【会社名】Tencent / JD.com（正社員）(企業買収,JDはTencentのeコマース事業を買収しました)（正社員）(アリに次ぐ中国の電子商取引会社)
+                                <br>【在职时间】2015年4月〜2016年10月
+                                <br>【仕事】シニアオペレーションアーキテクト
+                                <br><br>【主な仕事】<br>
+                                1.10wコア以上の大規模なサーバークラスターを管理および運用します。 毎日のアプリケーションのリリースと管理。<br>
+                                2.JD.COMワイヤレスビジネスオペレーションおよびメンテナンス開発部のElasticsearchクラスターのメンテナンスを担当し、他のチームのサポートを提供します。<br>
+                                3.JD.COM Wireless APMシステムの開発、クライアントの埋設サイトのレポート、実際のユーザーのアプリケーションの物理的検査の監視、データ出力の視覚化、主要ユーザーの追跡を担当 アーキテクチャ設計、バックエンドフレームワーク開発、フロントエンドフレームワーク開発、UIデザインを担当<br>
+                                4.分散外部ネットワーク回線の検出と開発、すばらしいエンドツーエンドの国内ネットワークのジッターアラーム、回線検出を実現し、バックボーンネットワーク障害が災害耐性のためにHttpsDNSにすぐに切り替えられることを発見しました。 アーキテクチャ設計、バックエンドフレームワーク開発、フロントエンドフレームワーク開発、UIデザインを担当します。
+                                <br>
+                                <hr>
+                                <br>【会社名】UCLOUD.CN クラウドコンピューティング 
+                                <br>【在职时间】2013年11月〜2015年4月
+                                <br>【仕事】ソフトウェア開発エンジニア
+                                <br><br>【主な仕事】<br>
+                                1.0から1までのCRM顧客管理システムを開発し、請求システムを独自に開発したBIシステムと組み合わせて、アーキテクト、製品、およびメインプロセスとして、販売、運用、市場のデータサポートを提供します。<br>
+                                2.Ucloudデータ分析システムは0から1まで開発されました。3回の主要な反復の後、元のPandasシングルスクリプトは、アドホッククエリ、スケジュールされたレポート出力、グラフィカルデータ表示を実現できる包括的なBIシステムに変更されました。 Ucloudコマーシャルオペレーションのデータサポートを提供します。 建築家、製品、リード。 <br>
+                                3.サードパーティの監査および財務に協力し、会社のパフォーマンスに関する月ごとおよび年ごとの毎日の計算を実行し、グラフィカルなレポートとCEO、COO、販売実績手数料、収益予測などを送信します <br>
+                                3.パブリックネットワークリンク検出システムを開発します。 建築家、製品、リード。 <br>
+                                4.ELKに基づいてクラウドログ製品を開発し、製品開発のために外国の競合他社から借用し、オープンソース中国に含まれていました。プロジェクトアドレスはhttps://www.oschina.net/p/sevnoteです（メンテナンスは停止されています）。 ユーザーはログの分離と切り取りを実行し、クエリ検索を実行し、データの視覚化出力を実行できます。 アーキテクト、製品、フロントエンドのメインプロセス、および一部のバックエンド開発。 <br>
+                                5.基本的なハードウェアアーキテクチャに基づくCMDBシステム、CMDB開発を開発します。 フロントエンドおよびバックエンドのデータベース設計、UI設計を担当します。 <br>
+                                6.統一されたNodejs Webフレームワークとフロントエンドシステムを会社の他のチームに提供し、バックグラウンド管理システムの視覚効果を効果的に改善します。 Nodejsの初期のExpressに基づいて、PHPエンジニアの変換を強力にサポートし、PHP CIフレームワークを利用して、開発をシームレスに切り替えることができます。 <br>
+                                7.外部システムの運用および保守は、セカンドラインの技術専門家グループのサポート作業です。 <br>
+                                8.ハードウェアサーバーのパフォーマンステストと完全自動インストールシステムの実現。 <br>
+                                <br>
+                                <br>
+                                <br>【会社名】上海亿通国際有限公司
+                                <br>【在职时间】2010年03月〜2013年11月
+                                <br>【仕事】システム運用保守エンジニア
+                                <br><br>【主な仕事】<br>
+                                同社は、上海港の輸出入データを担当する税関電子港に属し、主な仕事は、AIX、HP-UX、ブレードなどを含むUNIXホストの保守、JAVAミドルウェアWeblogic、メッセージ配信コンポーネント、EPMSリリース、テスト製品リリースの保守です。 、PHPを使用して自動公開システムを開発します。
+                                1.自動リリースシステムの開発<br/>
+2.ログシステムの開発<br/>
+3. VPNネットワーク開発<br/>
+4.AIXシステムメンテナンス管理<br/>
+5.HP-UXシステムの保守と管理<br/>
+6.RHEL5システムのメンテナンスと管理<br/>
+
+                                <br>
+                                <h2><br>プロジェクトの経験</br></h2>
+                                <br> 【プロジェクト名】Bilibiliステレオモニタリングプラットフォーム(2018年)
+                                <br> 【職務】アーキテクチャ、主な開発
+                                <br> 【内容】 负责Bilibili监控平台的整体架构设计，基于Prometheus，使用PromQL亲自编写了各种监控算法的规则，并且让Prometheus支持集群化方案和冷热存储分离，实现超过1亿的Series存储和超过2W个Metric指标的采集，通过通用的表达式来让研发可以自主配置不通的阀值。开发应用配置的后台已经Web端口和移动端应用。
+                                <br> 【プロジェクト写真】
+                                <br> リアルタイムログWebsocketダッシュボード（ケースコラボレーションのトラブルシューティング用のリアルタイム砲撃システム付き）リアルタイムログWebsocketダッシュボード（ケースコラボレーションのトラブルシューティング用のリアルタイム砲撃システム付き）</br> 
+                                <br><img src="static/image/bilibili/1.png"  width="650px" height="340px"><br>
+                                <br> イベントセンター
+                                650px                                <br>
+                                <hr>
+                                <br> 【プロジェクト名】 定量的取引システム  (2017年)
+                                <br> 【職務】アーキテクチャ、主な開発
+                                <br> 【内容】金融および経済データ、A株、米国、香港の株式市場データ、およびウェブクローラーを介した金融データを収集します。 異なる時間と緯度でのKラインデータの計算は、クロスデータとMACD、KDJなどの指標の値を計算して、株式市場のトレンドを判断できます。 Pythonを使用して、取引量とサポート価格の高低によって、メッセージプッシュの同じパターンの株を計算します。 IOSネイティブアプリケーションを開発して、個々の株のKラインを表示し、計算結果を定量化しました。 ほぼ高頻度でのリアルタイム取引が可能です。
+                                <hr>
+                                <br> 【プロジェクト名】SSEテクニカルオペレーションモニタリングプラットフォーム (2017年)
+                                <br> 【職務】アーキテクチャ、製品、UIデザイン、バックエンド開発、フロントエンド開発
+                                <br> 【内容】 上海証券取引所の取引システム全体の閉ループ監視を担当し、SREが序文に登場しました。コア取引システム、周辺ビジネスシステム、ビッグデータシステムを含む0から1までの完全な自己開発。 大量のデータを処理するためのリアルタイム監視システム。 Pythonとメモリデータベース、およびデータ受信キューとしてのKafkaを使用した入札データのリアルタイム分析。 処理遅延は30ミリ秒以内です。 監視システム全体の応答時間は秒単位で制御されます。 プロジェクトアーキテクチャ全体を設計し、ゲートウェイフレームワークコードの記述に参加しました。 Pythonリアルタイム計算処理エンジン。 メトリックアラートルールエンジン。 交換環境と3次元監視システムに基づいてCMDBを計画および設計します。
+                                <br> 【プロジェクト写真】 
+                                <br>運用および保守要員のシステム用のリアルタイムかんばん</br>
+                                <br><img  src="static/image/sse/1.png" width="650px" height="340px"><br>
+                                <br>システム容量監視</br>
+                                <br><img  src="static/image/sse/2.png" width="650px" height="340px"><br>
+                                <br>VueでリファクタリングされたGrafana</br>
+                                <br><img  src="static/image/sse/3.png" width="650px" height="340px"><br>
+                                <br>リファクタリングされたGrafanaカスタムメトリックメトリック</br>
+                                <br><img  src="static/image/sse/4.png" width="650px" height="340px"><br>
+                                <br>CMDBと組み合わせた単一サーバープレビュー</br>
+                                <br><img  src="static/image/sse/5.png" width="650px" height="340px"><br>
+                                <br>バッチ処理システムのリアルタイムデータ監視</br>
+                                <br><img  src="static/image/sse/6.png" width="650px" height="340px"><br>
+                                <br>取引ゲートウェイシステムの監視</br>
+                                <br><img  src="static/image/sse/8.png" width="650px" height="340px"><br>
+                                <br>BMSシステム監視</br>
+                                <br><img  src="static/image/sse/9.png" width="650px" height="340px"><br>
+                                <hr>
+                                <br> 【プロジェクト名】SSE Financial Cloudプラットフォーム (2016年)
+                                <br> 【職務】アーキテクチャ
+                                <br> 【内容】コンテナクラウドプラットフォームに基づくSSEの運用および保守開発を担当します。 コンテナクラウドプロトタイプは、Mesos and Marathonスケジューリングフレームワークに基づいて構築されました。 後にk8sに変換され、Dockerfile自動パッケージングシステムが開発されました。 NGINXオンライン構成管理システム。 上場企業のインターネット事業とCSRCのリングネットワーク間の対称ネットワーク相互訪問を支配し、設計しました。 openrstyに基づくグレーシステムが構築されました。 mesos Docker環境全体の監視およびサンプリングシステムを開発します実際にnodejsは、ETLを達成するために異種分離システム間でデータを抽出できるポンプデータポンプを開発しました。
+                                <br>
+                                <hr>
+                                <br> 【プロジェクト名】JD.COMネットワーク検出プラットフォーム (2015年)
+                                <br> 【職務】アーキテクチャ、主な開発
+                                <br> 【内容】ネットワーク全体のリンク品質検出は、現在のネットワーク品質を正確に反映し、自動障害切り替えを実現できます。 非同期icmpプロトコルとtcpプロトコルにより、特定のアルゴリズムに従って、国内で最高の検出品質を備えた検出ベースポイントが取得されます。 プロジェクト全体は、NodeJSの高度な同時実行性および非同期機能に基づいており、全国の多数の検出ポイントを数秒で検出できます。
+                                <br>
+                                <hr>
+                                <br> 【プロジェクト名】京东无线APM平台 (2015年)
+                                <br> 【職務】製品,アーキテクチャ,開発
+                                <br> 【内容】JD Wirelessのエンドツーエンドのパフォーマンス分析。 elasticsearchに基づいて、毎日のデータ処理量は5億個に達し、ユーザーから報告されたパフォーマンスデータに対してDSLクエリが実行され、結果と実際のユーザーエクスペリエンスデータが取得されます。
+                                <br>
+                                <hr>
+                                <br> 【プロジェクト名】Ucloud BI運用データプラットフォーム (2014年)
+                                <br> 【職務】製品,アーキテクチャ,開発
+                                <br> 【内容】Ucloudデータプラットフォームの開発を担当し、HadoopとElasticsearchを使用してオフラインデータ分析および処理プラットフォームを構築し、さまざまな財務データレポートを計算し、運用データを分析し、ビジネススタッフに迅速なクエリと自動レポート生成を提供します。
+                                <br>
+                                <hr>
+                                <br> 【プロジェクト名】Sevnoteログ分析システム (2013年)
+                                <br> 【职责】製品,アーキテクチャ,開発
+                                <br> 【職務】システムノートSevnoteは、NodeJSを使用して開発されたElasticsearchベースの大規模なログ分析システムです。ホスト、デバイス、プログラム、優先度、キーワードでシステムログをフィルター処理でき、動的ダッシュボードはログ生成をリアルタイムで監視できます。 Syslogプロトコルのサポート：Sevnote-agentをインストールすると、Webアクセスログや、集中管理用のアプリケーションによって生成されたログなど、任意のテキスト形式のログを収集できます。 監視がパルスとして記述される場合、ログの検索はシステムの健全性の血液検査です(オープンソース製品，詳細を見る <b>https://www.oschina.net/p/sevnote</b>)。
+                                <br> 【プロジェクト写真】<br/>
+                                <br>ログ検索ホーム
+                                <br><img  src="static/image/sevnote/1.jpg" width="650px" height="340px">
+                                <br> Grokでログを自由にカッ
+                                <br><img  src="static/image/sevnote/3.jpg" width="650px" height="340px">
+                                <br>製品化されたログインポートウィザード
+                                <br><img  src="static/image/sevnote/4.jpg" width="650px" height="340px">
+                                <br>ログクエリ期間の自由な選択
+                                <br><img  src="static/image/sevnote/5.png" width="650px" height="340px">
+                                <br>
+                                <h2><br>教育履歴</br></h2>
+                                <br>2006-2010&nbsp;&nbsp;&nbsp;东华大学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;情報システム情報管理
+                                <br>
+                                <hr>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
